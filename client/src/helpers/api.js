@@ -6,7 +6,7 @@ const postData = (url, data) => {
       'Content-Type': 'application/json',
     },
   };
-  const apiUrl = 'http://localhost:5000/api' + url;
+  const apiUrl = 'http://localhost:5001/api' + url;
   return axios
     .post(apiUrl, JSON.stringify(data), options)
     .then((response) => response.data)
@@ -16,7 +16,7 @@ const postData = (url, data) => {
 };
 
 const postFormData = (url, data) => {
-  const apiUrl = 'http://localhost:5000/api' + url;
+  const apiUrl = 'http://localhost:5001/api' + url;
   const config = {
     method: 'POST',
     url: apiUrl,
@@ -36,7 +36,7 @@ const getData = (url, params) => {
       'Content-Type': 'application/json',
     },
   };
-  const apiUrl = 'http://localhost:5000/api' + url;
+  const apiUrl = 'http://localhost:5001/api' + url;
   return axios
     .get(apiUrl, options)
     .then((response) => response.data)

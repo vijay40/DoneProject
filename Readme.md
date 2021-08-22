@@ -4,6 +4,27 @@ Access the website at `http://40.70.244.158:3001/`
 Admin login username: **_admin_**
 Admin login password: **_test123_**
 
+### Build Instructions
+
+**Server**
+
+1. cd into `server` Create a `.env` file with the below contents
+
+```
+NODE_ENV=production
+PORT=5001
+JWT_SECRET=SECREATE_STRING
+MONGODB_URL=mongodb+srv://donefirst:WzhfFEPDpNsCsVni@aws-us-west-2-cluster.pohcc.mongodb.net/done?retryWrites=true&w=majority
+```
+
+2. Run `npm install` to install all the dependencies.
+3. For running in development mode, can run the server using the command `npm run start`.
+
+**Client**
+
+1. Cd into `client` and run `yarn` to install all the dependencies.
+2. Run `yarn start` to start the front end server.
+
 ### Approach
 
 **Server**
