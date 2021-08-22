@@ -1,8 +1,8 @@
 ### Access
 
 Access the website at `http://40.70.244.158:3001/`
-Admin login username: _admin_
-Admin login password: _test123_
+Admin login username: **_admin_**
+Admin login password: **_test123_**
 
 ### Approach
 
